@@ -2,24 +2,24 @@ Execute command: [
   `which`
   `cmake`
 ]
-[/home/rigrey/VS/TIMP/Rigrey/workspace/projects/lab07]> "which" "cmake"
+[/home/TheKamenski/VS/TIMP/TheKamenski/workspace/projects/lab7]> "which" "cmake"
 /usr/bin/cmake
 Execute command: [
   `cmake`
   `--version`
 ]
-[/home/rigrey/VS/TIMP/Rigrey/workspace/projects/lab07]> "cmake" "--version"
+[/home/TheKamenski/VS/TIMP/TheKamenski/workspace/projects/lab7]> "cmake" "--version"
 cmake version 3.29.3
 
 CMake suite maintained and supported by Kitware (kitware.com/cmake).
 Execute command: [
   `cmake`
   `-H.`
-  `-B/home/rigrey/VS/TIMP/Rigrey/workspace/projects/lab07/_builds/clang-cxx14`
+  `-B/home/TheKamenski/VS/TIMP/TheKamenski/workspace/projects/lab7/_builds/clang-cxx14`
   `-GUnix Makefiles`
-  `-DCMAKE_TOOLCHAIN_FILE=/home/rigrey/VS/TIMP/Rigrey/workspace/projects/lab07/tools/polly/clang-cxx14.cmake`
+  `-DCMAKE_TOOLCHAIN_FILE=/home/TheKamenski/VS/TIMP/TheKamenski/workspace/projects/lab7/tools/polly/clang-cxx14.cmake`
 ]
-[/home/rigrey/VS/TIMP/Rigrey/workspace/projects/lab07]> "cmake" "-H." "-B/home/rigrey/VS/TIMP/Rigrey/workspace/projects/lab07/_builds/clang-cxx14" "-GUnix Makefiles" "-DCMAKE_TOOLCHAIN_FILE=/home/rigrey/VS/TIMP/Rigrey/workspace/projects/lab07/tools/polly/clang-cxx14.cmake"
+[/home/TheKamenski/VS/TIMP/TheKamenski/workspace/projects/lab7]> "cmake" "-H." "-B/home/TheKamenski/VS/TIMP/TheKamenski/workspace/projects/lab7/_builds/clang-cxx14" "-GUnix Makefiles" "-DCMAKE_TOOLCHAIN_FILE=/home/TheKamenski/VS/TIMP/TheKamenski/workspace/projects/lab7/tools/polly/clang-cxx14.cmake"
 -- [polly] Used toolchain: clang / c++14 support
 -- The C compiler identification is GNU 14.1.1
 -- The CXX compiler identification is Clang 17.0.6
@@ -35,12 +35,12 @@ Execute command: [
 -- Detecting CXX compile features - done
 -- [hunter] Calculating Toolchain-SHA1
 -- [hunter] Calculating Config-SHA1
--- [hunter] HUNTER_ROOT: /home/rigrey/projects/hunter
+-- [hunter] HUNTER_ROOT: /home/TheKamenski/projects/hunter
 -- [hunter] [ Hunter-ID: xxxxxxx | Toolchain-ID: 55ff7a0 | Config-ID: 5a7c41e ]
--- [hunter] GTEST_ROOT: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Install (ver.: 1.14.0)
+-- [hunter] GTEST_ROOT: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Install (ver.: 1.14.0)
 -- [hunter] Building GTest
-loading initial cache file /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/cache.cmake
-loading initial cache file /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/args.cmake
+loading initial cache file /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/cache.cmake
+loading initial cache file /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/args.cmake
 -- [polly] Used toolchain: clang / c++14 support
 -- The C compiler identification is Clang 17.0.6
 -- The CXX compiler identification is Clang 17.0.6
@@ -52,17 +52,17 @@ loading initial cache file /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a
 -- Detecting CXX compile features - done
 -- Configuring done (0.2s)
 -- Generating done (0.0s)
--- Build files have been written to: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Build
+-- Build files have been written to: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Build
 [  6%] Creating directories for 'GTest-Release'
 [ 12%] Performing download step (download, verify and extract) for 'GTest-Release'
 -- verifying file...
-       file='/home/rigrey/projects/hunter/_Base/Download/GTest/1.14.0/2b28c2a/v1.14.0.tar.gz'
+       file='/home/TheKamenski/projects/hunter/_Base/Download/GTest/1.14.0/2b28c2a/v1.14.0.tar.gz'
 -- File already exists and hash match (skip download):
-  file='/home/rigrey/projects/hunter/_Base/Download/GTest/1.14.0/2b28c2a/v1.14.0.tar.gz'
+  file='/home/TheKamenski/projects/hunter/_Base/Download/GTest/1.14.0/2b28c2a/v1.14.0.tar.gz'
   SHA1='2b28c2a3a30d86b1759543ef61fac3c4d69f8c4c'
 -- extracting...
-     src='/home/rigrey/projects/hunter/_Base/Download/GTest/1.14.0/2b28c2a/v1.14.0.tar.gz'
-     dst='/home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Source'
+     src='/home/TheKamenski/projects/hunter/_Base/Download/GTest/1.14.0/2b28c2a/v1.14.0.tar.gz'
+     dst='/home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Source'
 -- extracting... [tar xfz]
 -- extracting... [analysis]
 -- extracting... [rename]
@@ -71,8 +71,8 @@ loading initial cache file /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a
 [ 18%] No update step for 'GTest-Release'
 [ 25%] No patch step for 'GTest-Release'
 [ 31%] Performing configure step for 'GTest-Release'
-loading initial cache file /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/cache.cmake
-loading initial cache file /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/args.cmake
+loading initial cache file /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/cache.cmake
+loading initial cache file /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/args.cmake
 -- [polly] Used toolchain: clang / c++14 support
 -- The C compiler identification is Clang 17.0.6
 -- The CXX compiler identification is Clang 17.0.6
@@ -88,7 +88,7 @@ loading initial cache file /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a
 -- Found Threads: TRUE
 -- Configuring done (0.5s)
 -- Generating done (0.0s)
--- Build files have been written to: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Build/GTest-Release-prefix/src/GTest-Release-build
+-- Build files have been written to: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Build/GTest-Release-prefix/src/GTest-Release-build
 [ 37%] Performing build step for 'GTest-Release'
 [ 12%] Building CXX object googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 [ 25%] Linking CXX static library ../lib/libgtest.a
@@ -103,79 +103,79 @@ loading initial cache file /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a
 [100%] Linking CXX static library ../lib/libgmock_main.a
 [100%] Built target gmock_main
 [ 43%] Performing install step for 'GTest-Release'
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-actions.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-cardinalities.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-function-mocker.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-matchers.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-more-actions.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-more-matchers.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-nice-strict.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-spec-builders.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/custom
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/custom/README.md
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/custom/gmock-generated-actions.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/custom/gmock-matchers.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/custom/gmock-port.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/gmock-internal-utils.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/gmock-port.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/gmock-pp.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/libgmock.a
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/libgmock_main.a
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/pkgconfig/gmock.pc
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/pkgconfig/gmock_main.pc
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/cmake/GTest/GTestTargets.cmake
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/cmake/GTest/GTestTargets-release.cmake
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/cmake/GTest/GTestConfigVersion.cmake
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/cmake/GTest/GTestConfig.cmake
--- Up-to-date: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-assertion-result.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-death-test.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-matchers.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-message.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-param-test.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-printers.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-spi.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-test-part.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-typed-test.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest_pred_impl.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest_prod.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/custom
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/custom/README.md
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/custom/gtest-port.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/custom/gtest-printers.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/custom/gtest.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-death-test-internal.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-filepath.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-internal.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-param-util.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-port-arch.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-port.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-string.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-type-util.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/libgtest.a
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/libgtest_main.a
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/pkgconfig/gtest.pc
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/pkgconfig/gtest_main.pc
-loading initial cache file /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/args.cmake
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-actions.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-cardinalities.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-function-mocker.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-matchers.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-more-actions.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-more-matchers.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-nice-strict.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-spec-builders.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/custom
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/custom/README.md
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/custom/gmock-generated-actions.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/custom/gmock-matchers.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/custom/gmock-port.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/gmock-internal-utils.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/gmock-port.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/gmock-pp.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/libgmock.a
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/libgmock_main.a
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/pkgconfig/gmock.pc
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/pkgconfig/gmock_main.pc
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/cmake/GTest/GTestTargets.cmake
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/cmake/GTest/GTestTargets-release.cmake
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/cmake/GTest/GTestConfigVersion.cmake
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/cmake/GTest/GTestConfig.cmake
+-- Up-to-date: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-assertion-result.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-death-test.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-matchers.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-message.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-param-test.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-printers.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-spi.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-test-part.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-typed-test.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest_pred_impl.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest_prod.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/custom
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/custom/README.md
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/custom/gtest-port.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/custom/gtest-printers.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/custom/gtest.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-death-test-internal.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-filepath.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-internal.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-param-util.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-port-arch.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-port.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-string.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-type-util.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/libgtest.a
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/libgtest_main.a
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/pkgconfig/gtest.pc
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/pkgconfig/gtest_main.pc
+loading initial cache file /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/args.cmake
 [ 50%] Completed 'GTest-Release'
 [ 50%] Built target GTest-Release
 [ 56%] Creating directories for 'GTest-Debug'
 [ 62%] Performing download step (download, verify and extract) for 'GTest-Debug'
 -- verifying file...
-       file='/home/rigrey/projects/hunter/_Base/Download/GTest/1.14.0/2b28c2a/v1.14.0.tar.gz'
+       file='/home/TheKamenski/projects/hunter/_Base/Download/GTest/1.14.0/2b28c2a/v1.14.0.tar.gz'
 -- File already exists and hash match (skip download):
-  file='/home/rigrey/projects/hunter/_Base/Download/GTest/1.14.0/2b28c2a/v1.14.0.tar.gz'
+  file='/home/TheKamenski/projects/hunter/_Base/Download/GTest/1.14.0/2b28c2a/v1.14.0.tar.gz'
   SHA1='2b28c2a3a30d86b1759543ef61fac3c4d69f8c4c'
 -- extracting...
-     src='/home/rigrey/projects/hunter/_Base/Download/GTest/1.14.0/2b28c2a/v1.14.0.tar.gz'
-     dst='/home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Source'
+     src='/home/TheKamenski/projects/hunter/_Base/Download/GTest/1.14.0/2b28c2a/v1.14.0.tar.gz'
+     dst='/home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Source'
 -- extracting... [tar xfz]
 -- extracting... [analysis]
 -- extracting... [rename]
@@ -184,8 +184,8 @@ loading initial cache file /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a
 [ 68%] No update step for 'GTest-Debug'
 [ 75%] No patch step for 'GTest-Debug'
 [ 81%] Performing configure step for 'GTest-Debug'
-loading initial cache file /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/cache.cmake
-loading initial cache file /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/args.cmake
+loading initial cache file /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/cache.cmake
+loading initial cache file /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/args.cmake
 -- [polly] Used toolchain: clang / c++14 support
 -- The C compiler identification is Clang 17.0.6
 -- The CXX compiler identification is Clang 17.0.6
@@ -201,7 +201,7 @@ loading initial cache file /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a
 -- Found Threads: TRUE
 -- Configuring done (0.5s)
 -- Generating done (0.0s)
--- Build files have been written to: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Build/GTest-Debug-prefix/src/GTest-Debug-build
+-- Build files have been written to: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Build/GTest-Debug-prefix/src/GTest-Debug-build
 [ 87%] Performing build step for 'GTest-Debug'
 [ 12%] Building CXX object googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 [ 25%] Linking CXX static library ../lib/libgtestd.a
@@ -216,84 +216,84 @@ loading initial cache file /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a
 [100%] Linking CXX static library ../lib/libgmock_maind.a
 [100%] Built target gmock_main
 [ 93%] Performing install step for 'GTest-Debug'
--- Up-to-date: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include
--- Up-to-date: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-actions.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-cardinalities.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-function-mocker.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-matchers.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-more-actions.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-more-matchers.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-nice-strict.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-spec-builders.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock.h
--- Up-to-date: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal
--- Up-to-date: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/custom
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/custom/README.md
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/custom/gmock-generated-actions.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/custom/gmock-matchers.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/custom/gmock-port.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/gmock-internal-utils.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/gmock-port.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/gmock-pp.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/libgmockd.a
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/libgmock_maind.a
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/pkgconfig/gmock.pc
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/pkgconfig/gmock_main.pc
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/cmake/GTest/GTestTargets.cmake
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/cmake/GTest/GTestTargets-debug.cmake
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/cmake/GTest/GTestConfigVersion.cmake
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/cmake/GTest/GTestConfig.cmake
--- Up-to-date: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include
--- Up-to-date: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-assertion-result.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-death-test.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-matchers.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-message.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-param-test.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-printers.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-spi.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-test-part.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-typed-test.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest_pred_impl.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest_prod.h
--- Up-to-date: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal
--- Up-to-date: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/custom
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/custom/README.md
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/custom/gtest-port.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/custom/gtest-printers.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/custom/gtest.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-death-test-internal.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-filepath.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-internal.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-param-util.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-port-arch.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-port.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-string.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-type-util.h
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/libgtestd.a
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/libgtest_maind.a
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/pkgconfig/gtest.pc
--- Installing: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/pkgconfig/gtest_main.pc
-loading initial cache file /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/args.cmake
+-- Up-to-date: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include
+-- Up-to-date: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-actions.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-cardinalities.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-function-mocker.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-matchers.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-more-actions.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-more-matchers.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-nice-strict.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock-spec-builders.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/gmock.h
+-- Up-to-date: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal
+-- Up-to-date: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/custom
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/custom/README.md
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/custom/gmock-generated-actions.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/custom/gmock-matchers.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/custom/gmock-port.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/gmock-internal-utils.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/gmock-port.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gmock/internal/gmock-pp.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/libgmockd.a
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/libgmock_maind.a
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/pkgconfig/gmock.pc
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/pkgconfig/gmock_main.pc
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/cmake/GTest/GTestTargets.cmake
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/cmake/GTest/GTestTargets-debug.cmake
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/cmake/GTest/GTestConfigVersion.cmake
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/cmake/GTest/GTestConfig.cmake
+-- Up-to-date: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include
+-- Up-to-date: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-assertion-result.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-death-test.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-matchers.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-message.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-param-test.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-printers.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-spi.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-test-part.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest-typed-test.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest_pred_impl.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/gtest_prod.h
+-- Up-to-date: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal
+-- Up-to-date: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/custom
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/custom/README.md
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/custom/gtest-port.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/custom/gtest-printers.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/custom/gtest.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-death-test-internal.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-filepath.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-internal.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-param-util.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-port-arch.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-port.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-string.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/include/gtest/internal/gtest-type-util.h
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/libgtestd.a
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/libgtest_maind.a
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/pkgconfig/gtest.pc
+-- Installing: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/Install/lib/pkgconfig/gtest_main.pc
+loading initial cache file /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest/args.cmake
 [100%] Completed 'GTest-Debug'
 [100%] Built target GTest-Debug
--- [hunter] Build step successful (dir: /home/rigrey/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest)
--- [hunter] Cache saved: /home/rigrey/projects/hunter/_Base/Cache/raw/ff884c09b7d8acfdffcf470e51fd710dd95b9f6b.tar.bz2
+-- [hunter] Build step successful (dir: /home/TheKamenski/projects/hunter/_Base/xxxxxxx/55ff7a0/5a7c41e/Build/GTest)
+-- [hunter] Cache saved: /home/TheKamenski/projects/hunter/_Base/Cache/raw/ff884c09b7d8acfdffcf470e51fd710dd95b9f6b.tar.bz2
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
 -- Found Threads: TRUE
 -- Configuring done (20.4s)
 -- Generating done (0.0s)
--- Build files have been written to: /home/rigrey/VS/TIMP/Rigrey/workspace/projects/lab07/_builds/clang-cxx14
+-- Build files have been written to: /home/TheKamenski/VS/TIMP/TheKamenski/workspace/projects/lab7/_builds/clang-cxx14
 Execute command: [
   `cmake`
   `--build`
-  `/home/rigrey/VS/TIMP/Rigrey/workspace/projects/lab07/_builds/clang-cxx14`
+  `/home/TheKamenski/VS/TIMP/TheKamenski/workspace/projects/lab7/_builds/clang-cxx14`
   `--`
 ]
-[/home/rigrey/VS/TIMP/Rigrey/workspace/projects/lab07]> "cmake" "--build" "/home/rigrey/VS/TIMP/Rigrey/workspace/projects/lab07/_builds/clang-cxx14" "--"
+[/home/TheKamenski/VS/TIMP/TheKamenski/workspace/projects/lab7]> "cmake" "--build" "/home/TheKamenski/VS/TIMP/TheKamenski/workspace/projects/lab7/_builds/clang-cxx14" "--"
 [ 25%] Building CXX object CMakeFiles/print.dir/sources/print.cpp.o
 [ 50%] Linking CXX static library libprint.a
 [ 50%] Built target print

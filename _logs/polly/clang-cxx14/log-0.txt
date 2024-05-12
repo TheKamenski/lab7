@@ -2,24 +2,24 @@ Execute command: [
   `which`
   `cmake`
 ]
-[/home/rigrey/VS/TIMP/Rigrey/workspace/projects/lab07]> "which" "cmake"
+[/home/TheKamenski/VS/TIMP/TheKamenski/workspace/projects/lab7]> "which" "cmake"
 /usr/bin/cmake
 Execute command: [
   `cmake`
   `--version`
 ]
-[/home/rigrey/VS/TIMP/Rigrey/workspace/projects/lab07]> "cmake" "--version"
+[/home/TheKamenski/VS/TIMP/TheKamenski/workspace/projects/lab7]> "cmake" "--version"
 cmake version 3.29.3
 
 CMake suite maintained and supported by Kitware (kitware.com/cmake).
 Execute command: [
   `cmake`
   `-H.`
-  `-B/home/rigrey/VS/TIMP/Rigrey/workspace/projects/lab07/_builds/clang-cxx14`
+  `-B/home/TheKamenski/VS/TIMP/TheKamenski/workspace/projects/lab7/_builds/clang-cxx14`
   `-GUnix Makefiles`
-  `-DCMAKE_TOOLCHAIN_FILE=/home/rigrey/VS/TIMP/Rigrey/workspace/projects/lab07/tools/polly/clang-cxx14.cmake`
+  `-DCMAKE_TOOLCHAIN_FILE=/home/TheKamenski/VS/TIMP/TheKamenski/workspace/projects/lab7/tools/polly/clang-cxx14.cmake`
 ]
-[/home/rigrey/VS/TIMP/Rigrey/workspace/projects/lab07]> "cmake" "-H." "-B/home/rigrey/VS/TIMP/Rigrey/workspace/projects/lab07/_builds/clang-cxx14" "-GUnix Makefiles" "-DCMAKE_TOOLCHAIN_FILE=/home/rigrey/VS/TIMP/Rigrey/workspace/projects/lab07/tools/polly/clang-cxx14.cmake"
+[/home/TheKamenski/VS/TIMP/TheKamenski/workspace/projects/lab7]> "cmake" "-H." "-B/home/TheKamenski/VS/TIMP/TheKamenski/workspace/projects/lab7/_builds/clang-cxx14" "-GUnix Makefiles" "-DCMAKE_TOOLCHAIN_FILE=/home/TheKamenski/VS/TIMP/TheKamenski/workspace/projects/lab7/tools/polly/clang-cxx14.cmake"
 -- [polly] Used toolchain: clang / c++14 support
 
 clang++ not found
