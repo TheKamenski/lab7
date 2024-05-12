@@ -1,5 +1,5 @@
 
-# tp-lab7
+# lab7
 
 
 ## Tutorial
@@ -877,6 +877,6 @@ Compressing objects: 100% (44/44), done.
 Writing objects: 100% (77/77), 43.90 KiB | 43.90 MiB/s, done.
 Total 77 (delta 26), reused 64 (delta 24), pack-reused 0 (from 0)
 remote: Resolving deltas: 100% (26/26), done.
-To github.com:TheKamenski/tp-lab7.git
+To github.com:TheKamenski/lab7.git
  * [new branch]      main -> main
 ```
